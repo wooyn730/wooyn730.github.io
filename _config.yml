@@ -19,7 +19,7 @@ locale                   : "ko-KR"
 title                    : "Woo's Blog" # 크롬 Tab에 표시
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "woo yeon"
+name                     : "Woo Yeon"
 description              : "게임 개발 공부 블로그"
 url                      : "https://wooyn730.github.io/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
