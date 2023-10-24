@@ -24,8 +24,8 @@ description              : "게임 개발 공부 중!"
 url                      : "https://wooyn730.github.io/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : "/assets/images/cat_crying.png" # path of fallback teaser image, e.g. 
-logo                     : "/assets/images/cat_logo.png" # path of logo image to display in the masthead, e.g. 
+teaser                   : # "/assets/images/cat_crying.jpeg" # path of fallback teaser image, e.g. 
+logo                     : # "/assets/images/cat_logo.png" # path of logo image to display in the masthead, e.g. 
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -104,15 +104,18 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  name             : "woo yeon"
+  avatar           : "/assets/images/cat_crying.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "게임 개발 공부 중!"
+  location         : # "Somewhere"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      url: "mailto:bethelight730@gmail.com"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/wooyn730"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -122,9 +125,6 @@ author:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
