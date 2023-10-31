@@ -27,6 +27,6 @@
     {% include page__meta.html type=include.type %}
     {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
     <!--날짜 출력-->
-    <p class="archive__item-excerpt"><i class="far fa-calendar-alt"></i> {★{ post.date | date: "%m/%d/%Y" }} </p>
+    <p class="archive__item-excerpt"><i class="far fa-calendar-alt"></i> {{ post.date | date: "%m/%d/%Y" }} </p>
   </article>
 </div>
