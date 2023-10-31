@@ -1,0 +1,44 @@
+{% assign sum = site.posts | size %}
+
+<nav class="nav__list">
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label }}</label>
+  <ul class="nav__items" id="category_tag_menu">
+      <li>
+            📂 전체 글 수 {{sum}}개
+      </li>
+      <li>
+        <span class="nav__sub-title">Programming</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "unity" %}
+                        <li><a href="/categories/cpp" class="">유니티 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "programsolving" %}
+                        <li><a href="/categories/stl" class="">PS ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+
+        <span class="nav__sub-title">Me</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "gamedev" %}
+                        <li><a href="/categories/algorithm" class="">게임 개발 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "blog" %}
+                        <li><a href="/categories/algorithm" class="">일상 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+      </li>
+  </ul>
+</nav>
