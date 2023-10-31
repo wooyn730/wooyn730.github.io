@@ -12,14 +12,14 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "unity" %}
-                        <li><a href="/categories/cpp" class="">유니티 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/unity" class="">유니티 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "programsolving" %}
-                        <li><a href="/categories/stl" class="">PS ({{category[1].size}})</a></li>
+                        <li><a href="/categories/problemsolving" class="">PS ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -28,14 +28,14 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "gamedev" %}
-                        <li><a href="/categories/algorithm" class="">게임 개발 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/gamedev" class="">게임 개발 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "blog" %}
-                        <li><a href="/categories/algorithm" class="">일상 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/blog" class="">일상 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
